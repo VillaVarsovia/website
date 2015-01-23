@@ -15,45 +15,34 @@ color:
 # Team names, titles and social links
 people:
 - name: Marta Wieladek
-  pic: marta
+  pic: marta.jpg
   position: Lead Marketer
   social:
-    - title: twitter
-      url: #
+    - title: pinterest
+      url: http://www.pinterest.com/mwieladek/
     - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
+      url: https://www.facebook.com/marta.wieladek
 
 - name: Jean-Louis Bourgeois
-  pic: jeanlouis
+  pic: jeanlouis.png
   position: Grumpy Designer
   social:
     - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: linkedin
-      url: #
+      url: https://twitter.com/JLBoor
+    - title: github
+      url: http://jlboor.github.io/
 
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
   - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket 
-    url: http://bitbucket.org/jekyll
-  - title: github
-    url: http://github.com/jekyll
+    url: https://www.facebook.com/VillaVarsovia
+
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: Villas Xhu
+  - line: Esterillos, Puntarenas, Costa Rica
 
 # Build settings
 markdown: kramdown
