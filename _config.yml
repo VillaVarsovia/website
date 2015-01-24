@@ -9,7 +9,7 @@ description: "Write an awesome description for your new site here. You can edit 
 # Color settings (hex-codes without the leading hash-tag)
 color:
   primary: e74c3c
-  secondary: c0392b
+  secondary: e74c3c
   secondary-dark: 000000
 
 # Team names, titles and social links
