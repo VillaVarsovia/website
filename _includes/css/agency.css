@@ -11,7 +11,7 @@ body {
 }
 
 .text-muted {
-    color: #777;
+    color: #2c3e50;
 }
 
 .text-primary {
@@ -51,6 +51,18 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
     font-family: 'Shadows Into Light',cursive,Helvetica,Arial,sans-serif;
     font-weight: 700;
+}
+
+h5 {
+    color: #2c3e50;
+    font-size: 20px;
+    border-bottom: 1px solid #bdc3c7;
+    margin: 50px 0 20px 0;
+}
+
+h4 {
+    margin: 75px 0 50px 0;
+    font-size: 30px;
 }
 
 .img-centered {
@@ -366,6 +378,74 @@ section h3.section-subheading {
     text-transform: none;
 }
 
+.villa-feature {
+    background: #3498db;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.villa-feature .glyph-icon:before {
+    color: white;
+    font-size: 40px;
+    line-height: 100px;
+    margin-left: 0;
+}
+
+.price-column {
+    border: 1px solid #2c3e50;
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 30px;
+    font-weight: 300;
+    margin: 0 -16px;
+    z-index: -1;
+}
+
+.price-column.price-column-middle {
+    box-shadow: 0 0 10px #2c3e50;
+    margin: -20px -25px;
+    background: white;
+    z-index: 1;
+}
+
+.price-column h5 {
+    background: #3498db;
+    display: block;
+    color: white;
+    margin: 0;
+    padding: 20px;
+    border-color: #2c3e50;
+}
+
+.price-column span {
+    padding-top: 30px;
+    display: block;
+    font-size: 30px;
+}
+
+.amenities ul {
+    color: #2c3e50;
+    list-style: none;
+    font-weight: 300;
+}
+
+.amenities li {
+    margin: 0;
+}
+
+
+.amenities li .glyph-icon {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.amenities li .glyph-icon:before {
+    margin: 0 20px;
+    color: #2c3e50;
+}
+
 #photogallery .portfolio-item {
     right: 0;
     margin: 0 0 15px;
@@ -459,6 +539,11 @@ section h3.section-subheading {
     width: 2px;
     margin-left: -1.5px;
     background-color: #{{ site.color.primary }};
+}
+
+.timeline h4 {
+    margin: 0;
+    font-size: 18px;
 }
 
 .timeline>li {
