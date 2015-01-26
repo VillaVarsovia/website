@@ -4,6 +4,18 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+#calendar h2 { font-size: 1.5em; color: #2c3e50; font-family: 'Roboto'; font-weight: 300; }
+.fc-day-header { color: #2c3e50;  font-weight: 300; }
+.fc-day-number { color: #2c3e50; }
+.fc-unthemed .fc-today { font-weight: bold; }
+
+.fc-booked { background: rgb(255, 204, 204) !important; }
+.fc-other-month { color: white; background: transparent !important; }
+
+
+.fc-event-container { display: none; }
+
+
 body {
     overflow-x: hidden;
     font-family: "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -394,35 +406,22 @@ section h3.section-subheading {
 }
 
 .price-column {
-    border: 1px solid #2c3e50;
     text-align: center;
     font-size: 25px;
     padding-bottom: 30px;
     font-weight: 300;
-    margin: 0 -16px;
-    z-index: -1;
 }
 
-.price-column.price-column-middle {
-    box-shadow: 0 0 10px #2c3e50;
-    margin: -20px -25px;
-    background: white;
-    z-index: 1;
-}
-
-.price-column h5 {
-    background: #3498db;
-    display: block;
-    color: white;
-    margin: 0;
-    padding: 20px;
-    border-color: #2c3e50;
+.price-column .title {
+    font-size: 0.8em;
+    font-weight: 500;
 }
 
 .price-column span {
-    padding-top: 30px;
     display: block;
-    font-size: 30px;
+    font-size: 1em;
+    font-weight: 100;
+    color: #2c3e50;
 }
 
 .amenities ul {

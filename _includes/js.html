@@ -15,3 +15,36 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="{{ "/js/agency.js" | prepend: site.baseurl }}"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="{{ "/js/fullcalendar-2.2.6/lib/moment.min.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/js/fullcalendar-2.2.6/fullcalendar.min.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/js/fullcalendar-2.2.6/gcal.js" | prepend: site.baseurl }}"></script>
+
+
+ <script>
+
+ $(document).ready(function() {
+
+    $('#calendar').fullCalendar({
+       height: 'auto',
+       eventColor: '#FF00FF',
+
+       googleCalendarApiKey: 'AIzaSyCsSDp4yxElBcn8R82hGDZgYTaUaClRN3Q',
+       events: '4h2ssb063dk05v9sh6b1halo00@group.calendar.google.com',
+
+       eventAfterRender: function(event) {
+          var $calendar = $('#calendar .fc-view-container');
+          var mCurrent = event.start;
+
+          while(mCurrent.isBefore(event.end)) {
+             $calendar.find('[data-date=' + mCurrent.format('YYYY-MM-DD') + ']').addClass('fc-booked');
+             mCurrent.add(1, 'days')
+          }
+       }
+
+    });
+
+ });
+
+</script>

@@ -14,33 +14,39 @@
         font-size: 20px;
 font-style: normal;
 margin-left: 20px;
-}.flaticon-bed33:before {
+}.flaticon-barbecue3:before {
 	content: "\e000";
 }
-.flaticon-cutlery23:before {
+.flaticon-bed33:before {
 	content: "\e001";
 }
-.flaticon-internet5:before {
+.flaticon-covered20:before {
 	content: "\e002";
 }
-.flaticon-laundry7:before {
+.flaticon-cutlery23:before {
 	content: "\e003";
 }
-.flaticon-minisplit:before {
+.flaticon-internet5:before {
 	content: "\e004";
 }
-.flaticon-shower5:before {
+.flaticon-laundry7:before {
 	content: "\e005";
 }
-.flaticon-silhouette66:before {
+.flaticon-minisplit:before {
 	content: "\e006";
 }
-.flaticon-towel4:before {
+.flaticon-shower5:before {
 	content: "\e007";
 }
-.flaticon-user157:before {
+.flaticon-silhouette66:before {
 	content: "\e008";
 }
-.flaticon-users25:before {
+.flaticon-towel4:before {
 	content: "\e009";
+}
+.flaticon-user157:before {
+	content: "\e00a";
+}
+.flaticon-users25:before {
+	content: "\e00b";
 }
