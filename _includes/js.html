@@ -16,10 +16,14 @@
     <!-- Custom Theme JavaScript -->
     <script src="{{ "/js/agency.js" | prepend: site.baseurl }}"></script>
 
-    <!-- Custom Theme JavaScript -->
+    <!-- Full Calendar -->
     <script src="{{ "/js/fullcalendar-2.2.6/lib/moment.min.js" | prepend: site.baseurl }}"></script>
     <script src="{{ "/js/fullcalendar-2.2.6/fullcalendar.min.js" | prepend: site.baseurl }}"></script>
     <script src="{{ "/js/fullcalendar-2.2.6/gcal.js" | prepend: site.baseurl }}"></script>
+
+   <!-- Image Gallery -->
+   <script src="{{ "/js/photoswipe-4.0.5/photoswipe.min.js" | prepend: site.baseurl }}"></script>
+   <script src="{{ "/js/photoswipe-4.0.5/photoswipe-ui-default.min.js" | prepend: site.baseurl }}"></script>
 
 
  <script>
@@ -44,6 +48,41 @@
        }
 
     });
+
+
+     var pswpElement = document.querySelectorAll('.pswp')[0];
+     var options = { index: 0 };
+
+     var gallery = {
+         "the-villa": [],
+         "around": [],
+         "things-to-do": []
+     };
+
+
+
+
+        {% for image in site.data.gallery-the-villa %}
+            gallery["the-villa"].push({ src: 'img/photo_gallery/the_villa/{{image.src}}', w: 6000, h: 4000});
+        {% endfor %}
+
+
+
+     $('a.photoswipe-link').on('click', function() {
+
+         var galleryId = $(this).attr('data-gallery-id');
+
+         // Initializes and opens PhotoSwipe
+         new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, gallery[galleryId], options).init();
+     });
+
+
+
+
+
+
+
+
 
  });
 
