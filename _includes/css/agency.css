@@ -4,6 +4,9 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+
+.pswp .pswp__bg { background: #2c3e50; }
+
 #calendar h2 { font-size: 1.5em; color: #2c3e50; font-family: 'Roboto'; font-weight: 300; }
 .fc-day-header { color: #2c3e50;  font-weight: 300; }
 .fc-day-number { color: #2c3e50; }
