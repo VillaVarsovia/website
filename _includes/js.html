@@ -63,7 +63,7 @@
 
 
         {% for image in site.data.gallery-the-villa %}
-            gallery["the-villa"].push({ src: 'img/photo_gallery/the_villa/{{image.src}}', w: 6000, h: 4000});
+            gallery["the-villa"].push({ src: 'img/photo_gallery/the_villa/{{image.src}}', w: {{image.w}}, h: {{image.h}}});
         {% endfor %}
 
 
