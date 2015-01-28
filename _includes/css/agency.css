@@ -785,7 +785,7 @@ section#contact .form-control:focus {
 }
 
 section#contact .form-control {
-    background-color: #ecf0f1;
+    background-color: #f5f5f5;
     border: 1px solid #2c3e50;
     color: #2c3e50;
 }
