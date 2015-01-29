@@ -5,7 +5,7 @@
  */
 
 
-.pswp .pswp__bg { background: #2c3e50; }
+.pswp .pswp__bg { background: #000; }
 
 #calendar h2 { font-size: 1.5em; color: #2c3e50; font-family: 'Roboto'; font-weight: 300; }
 .fc-day-header { color: #2c3e50;  font-weight: 300; }

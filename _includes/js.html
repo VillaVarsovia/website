@@ -51,29 +51,23 @@
 
 
      var pswpElement = document.querySelectorAll('.pswp')[0];
-     var options = { index: 0, bgOpacity: .9 };
+     var options = { index: 0, bgOpacity: .8 };
 
-     var gallery = {
-         "the-villa": [],
-         "around": [],
-         "things-to-do": []
-     };
+     var gallery = [];
 
-
+    {% for image in site.data.photo_gallery %}
+        gallery.push({ src: 'img/photo_gallery/{{image.src}}', w: {{image.w}}, h: {{image.h}}});
+    {% endfor %}
 
 
-        {% for image in site.data.gallery-the-villa %}
-            gallery["the-villa"].push({ src: 'img/photo_gallery/the_villa/{{image.src}}', w: {{image.w}}, h: {{image.h}}});
-        {% endfor %}
-
-
-
-     $('a.photoswipe-link').on('click', function() {
+     $('a#headerPhotoGallery, header').on('click', function() {
 
          var galleryId = $(this).attr('data-gallery-id');
 
          // Initializes and opens PhotoSwipe
-         new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, gallery[galleryId], options).init();
+         new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, gallery, options).init();
+
+         event.preventDefault();
      });
 
 
