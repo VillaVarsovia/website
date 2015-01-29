@@ -6,6 +6,11 @@
 
 
 .pswp .pswp__bg { background: #000; }
+.header-gallery-arrow { color: black; opacity: 0.8; cursor: pointer; position: absolute; top: 50%; }
+.header-gallery-arrow:hover { opacity: 1; }
+
+.header-gallery-arrow.fa-chevron-right { right: 20px; }
+.header-gallery-arrow.fa-chevron-left { left: 20px; }
 
 #calendar h2 { font-size: 1.5em; color: #2c3e50; font-family: 'Roboto'; font-weight: 300; }
 .fc-day-header { color: #2c3e50;  font-weight: 300; }
@@ -807,8 +812,8 @@ section#contact .alert-danger {
 section#contact .close-danger { color: #{{ site.color.primary }}; }
 section#contact h2 { padding-bottom: 45px; }
 
-section#contact .btn { background: transparent; border-color: #16a085; color: #16a085; transition: all ease-in .2s; }
-section#contact .btn:hover { background: #2ecc71; color: white; }
+section#contact .btn { background: transparent; border-color: #2c3e50; color: #2c3e50; transition: all ease-in .2s; }
+section#contact .btn:hover { background: #2c3e50; color: white; }
 
 .team-member h4 {
     font-size: 1.5em;
