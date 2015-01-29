@@ -16,21 +16,11 @@ color:
 people:
 - name: Marta Wieladek
   pic: marta.jpg
-  position: Lead Marketer
   social:
     - title: pinterest
       url: http://www.pinterest.com/mwieladek/
     - title: facebook
       url: https://www.facebook.com/marta.wieladek
-
-- name: Jean-Louis Bourgeois
-  pic: jeanlouis.png
-  position: Grumpy Designer
-  social:
-    - title: twitter
-      url: https://twitter.com/JLBoor
-    - title: github
-      url: http://jlboor.github.io/
 
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
