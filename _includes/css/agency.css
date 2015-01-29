@@ -12,7 +12,7 @@
 .fc-day-number { color: #2c3e50; }
 .fc-unthemed .fc-today { font-weight: bold; }
 
-.fc-booked { background: rgb(255, 204, 204) !important; }
+.fc-booked { background: rgb(255, 204, 204) !important; text-decoration: line-through; }
 .fc-other-month { color: white; background: transparent !important; }
 
 
