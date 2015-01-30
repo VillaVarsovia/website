@@ -287,42 +287,13 @@ fieldset[disabled] .btn-xl.active {
     border: 1px solid #{{ site.color.primary }};
 }
 
-@media(min-width:768px) {
-    .navbar-default {
-        padding: 10px 0;
-        border: 0;
-        -webkit-transition: padding .3s;
-        -moz-transition: padding .3s;
-        transition: padding .3s;
-    }
-
-    .navbar-default .navbar-brand {
-        font-size: 3em;
-        -webkit-transition: all .3s;
-        -moz-transition: all .3s;
-        transition: all .3s;
-    }
-
-    .navbar-default .navbar-nav>.active>a {
-        border-radius: 3px;
-    }
-
-    .navbar-default.navbar-shrink {
-        padding: 10px 0;
-        box-shadow: 0px 0px 10px;
-        color: black;
-    }
-
-    .navbar-default.navbar-shrink .navbar-brand {
-    }
-}
 
 header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
     background-image: url(../img/header-bg.jpg);
-    background-position: bottom center;
+    background-position: top center;
     background-repeat: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -877,4 +848,76 @@ ul.social-buttons li a:active {
 
 body {
     webkit-tap-highlight-color: #{{ site.color.primary }};
+}
+
+
+@media(max-width:768px) {
+    .navbar-default.navbar-fixed-top {
+        padding-bottom: 10px;
+        box-shadow: 0px 0px 10px black;
+    }
+    .navbar-default .navbar-toggle {
+        margin-top: 15px;
+    }
+
+    .header-gallery-arrow {
+        font-size: 2em !important;
+        color:white;
+    }
+    .intro-lead-bg {
+        font-size: 2em;
+        line-height: 1.7em;
+    }
+
+    iframe { height: 33%; }
+
+    .amenities ul { margin: 0; padding: 0; }
+    .price-column {
+        text-align: left;
+        font-size: 20px;
+        padding-bottom: 30px;
+        padding-left: 25px;
+    }
+    .price-column span { display: inline-block; }
+
+    .team-member-family img { width: 50%; }
+}
+
+@media(min-width:768px) {
+    .navbar-default {
+        padding: 10px 0;
+        border: 0;
+        -webkit-transition: padding .3s;
+        -moz-transition: padding .3s;
+        transition: padding .3s;
+    }
+
+    .navbar-default .navbar-brand {
+        font-size: 3em;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+    }
+
+    .navbar-default .navbar-nav>.active>a {
+        border-radius: 3px;
+    }
+
+    .navbar-default.navbar-shrink {
+        padding: 10px 0;
+        box-shadow: 0px 0px 10px;
+        color: black;
+    }
+
+    .navbar-default.navbar-shrink .navbar-brand {
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    .navbar-default .navbar-brand { font-size: 2em; }
+    .navbar-default .nav li a { padding: 10px 5px; font-size: 1.1em; }
+}
+
+@media (min-width: 768px) and (max-width: 1000px) {
+    .navbar .container { width: 100%; }
 }

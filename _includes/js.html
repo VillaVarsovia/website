@@ -71,7 +71,11 @@
      });
 
 
-    $('header').css('height', $(window).height());
+    var $window = $(window);
+    if($window.width() > 768) {
+        $('header').css('height', $window.height());
+    }
+
 
  });
 
