@@ -4,6 +4,14 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+#contactForm .btn-spin { display: none; }
+#contactForm.busy .btn-spin { display: inline-block; padding: 0 10px; }
+
+
+.fa-pulse {
+    -webkit-animation: spin 1s infinite steps(8);
+    animation: spin 1s infinite steps(8);
+}
 
 .pswp .pswp__bg { background: #000; }
 .header-gallery-arrow { color: black; opacity: 0.8; cursor: pointer; position: absolute; top: 50%; }
