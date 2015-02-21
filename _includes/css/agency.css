@@ -23,7 +23,7 @@ button:focus { outline: 0; }
 .header-gallery-arrow.fa-chevron-left { left: 20px; }
 
 
-#calendar .fc-view-container { background: white; }
+#calendar .fc-view-container { background: #f5f5f5; }
 #calendar h2 { font-size: 1.5em; color: #2c3e50; font-family: 'Roboto'; font-weight: 300; }
 .fc-day-header { color: #2c3e50;  font-weight: 300; }
 .fc-day-number { color: #2c3e50; }
@@ -766,7 +766,7 @@ section#contact .form-group input.form-control {
 }
 
 section#contact .form-group textarea.form-control {
-    height: 236px;
+    height: 191px;
 }
 
 section#contact .form-control:focus {
@@ -775,7 +775,7 @@ section#contact .form-control:focus {
 }
 
 section#contact .form-control {
-    background-color: #f0f0f0;
+    background-color: white;
     border: 1px solid darkgrey;
     color: #2c3e50;
 }
@@ -797,7 +797,7 @@ section#contact .alert-danger {
 
 section#contact .close-danger { color: #{{ site.color.primary }}; }
 
-section#contact .btn { background: transparent; border-color: #2c3e50; color: #2c3e50; transition: all ease-in .2s; }
+section#contact .btn { background: white; border-color: #2c3e50; color: #2c3e50; transition: all ease-in .2s; }
 section#contact .btn:hover { background: #2c3e50; color: white; }
 
 .team-member h4 {
