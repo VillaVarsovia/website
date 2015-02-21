@@ -796,7 +796,6 @@ section#contact .alert-danger {
 }
 
 section#contact .close-danger { color: #{{ site.color.primary }}; }
-section#contact h2 { padding-bottom: 45px; }
 
 section#contact .btn { background: transparent; border-color: #2c3e50; color: #2c3e50; transition: all ease-in .2s; }
 section#contact .btn:hover { background: #2c3e50; color: white; }

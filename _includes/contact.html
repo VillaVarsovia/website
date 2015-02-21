@@ -3,6 +3,9 @@
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h2 class="section-heading">Contact Us</h2>
+                <h3 class="section-subheading text-muted">
+                    Villa Varsovia
+                </h3>
             </div>
         </div>
 
@@ -13,12 +16,6 @@
 
             {% for member in site.people %}
             <div class="col-lg-3">
-
-                <div class="team-member team-member-family">
-                    <img src="img/team/family.jpg" class="img-responsive img-circle" alt="">
-                    <h4>The Family</h4>
-                </div>
-
 
                 <div class="team-member">
                     <img src="img/team/{{ member.pic }}" class="img-responsive img-circle" alt="">
@@ -65,6 +62,13 @@
                 </form>
             </div>
 
+        </div>
+
+        <div>
+            <div class="team-member team-member-family">
+                <img src="img/team/family.jpg" class="img-responsive img-circle" alt="">
+                <h4>The Family</h4>
+            </div>
         </div>
     </div>
 </section>
