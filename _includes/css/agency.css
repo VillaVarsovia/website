@@ -14,7 +14,7 @@
 }
 
 .pswp .pswp__bg { background: #000; }
-.header-gallery-arrow { color: black; opacity: 0.8; cursor: pointer; position: absolute; top: 50%; }
+.header-gallery-arrow { color: white; opacity: 1; cursor: pointer; position: absolute; top: 50%; }
 .header-gallery-arrow:hover { opacity: 1; }
 
 .header-gallery-arrow.fa-chevron-right { right: 20px; }
