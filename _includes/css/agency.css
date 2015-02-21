@@ -7,6 +7,8 @@
 #contactForm .btn-spin { display: none; }
 #contactForm.busy .btn-spin { display: inline-block; padding: 0 10px; }
 
+.asterisk-information { font-size: 14px; color: #2c3e50; text-align: center; }
+button:focus { outline: 0; }
 
 .fa-pulse {
     -webkit-animation: spin 1s infinite steps(8);
@@ -20,6 +22,8 @@
 .header-gallery-arrow.fa-chevron-right { right: 20px; }
 .header-gallery-arrow.fa-chevron-left { left: 20px; }
 
+
+#calendar .fc-view-container { background: white; }
 #calendar h2 { font-size: 1.5em; color: #2c3e50; font-family: 'Roboto'; font-weight: 300; }
 .fc-day-header { color: #2c3e50;  font-weight: 300; }
 .fc-day-number { color: #2c3e50; }

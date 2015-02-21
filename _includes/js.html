@@ -45,7 +45,16 @@
              $calendar.find('[data-date=' + mCurrent.format('YYYY-MM-DD') + ']').addClass('fc-booked');
              mCurrent.add(1, 'days')
           }
-       }
+       },
+
+        viewRender: function(view) {
+            var x = moment(view.start).add(2, 'weeks');
+            if(x.month() == 0 && x.year() == 2015) {
+                $('.fc-prev-button').addClass("fc-state-disabled");
+            }   else {
+                $('.fc-prev-button').removeClass("fc-state-disabled");
+            }
+        }
 
     });
 

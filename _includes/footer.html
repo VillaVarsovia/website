@@ -1,19 +1,19 @@
   <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <span class="copyright">Copyright &copy; {{ site.title }} 2015</span>
-                </div>
-                <div class="col-md-4">
-                    <ul class="list-inline social-buttons">
-                        {% for network in site.social %}
-                        <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
-                        </li>
-                        {% endfor %}
-                    </ul>
-                </div>
-                <div class="col-md-4">
-                </div>
+    <div class="container">
+        <div class="row">
+            <div class="text-center">
+                <ul class="list-inline social-buttons">
+                    {% for network in site.social %}
+                    <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
+                    </li>
+                    {% endfor %}
+                </ul>
             </div>
         </div>
-    </footer>
+        <div class="row">
+            <div class="text-center">
+                <span class="copyright">Copyright &copy; {{ site.title }} 2015</span>
+            </div>
+        </div>
+    </div>
+</footer>
