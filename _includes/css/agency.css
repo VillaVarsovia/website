@@ -30,7 +30,7 @@ button:focus { outline: 0; }
 .fc-unthemed .fc-today { font-weight: bold; }
 
 .fc-booked { background: rgb(255, 204, 204) !important; text-decoration: line-through; }
-.fc-other-month { color: white; background: transparent !important; }
+.fc-other-month { color: #f5f5f5; background: transparent !important; }
 
 
 .fc-event-container { display: none; }
@@ -658,9 +658,9 @@ section h3.section-subheading {
 
     .timeline>li .timeline-image {
         left: 50%;
-        width: 100px;
-        height: 100px;
-        margin-left: -50px;
+        width: 150px;
+        height: 150px;
+        margin-left: -75px;
     }
 
     .timeline>li .timeline-image h4 {
@@ -856,6 +856,7 @@ body {
     webkit-tap-highlight-color: #{{ site.color.primary }};
 }
 
+@media (min-width:768px) and (max-width:990px) { iframe { height: 250px; } }
 
 @media(max-width:768px) {
     .navbar-default.navbar-fixed-top {
@@ -865,6 +866,9 @@ body {
     .navbar-default .navbar-toggle {
         margin-top: 15px;
     }
+
+    .navbar-default .nav li { margin: 5px; }
+    .navbar-default .navbar-nav>.active>a { border-radius: 5px; }
 
     .header-gallery-arrow {
         font-size: 2em !important;
@@ -886,10 +890,15 @@ body {
     }
     .price-column span { display: inline-block; }
 
+    .amenities .asterisk-information { text-align: left; padding-left: 25px; }
+
     .team-member-family img { width: 50%; }
 }
 
 @media(min-width:768px) {
+
+
+
     .navbar-default {
         padding: 10px 0;
         border: 0;
