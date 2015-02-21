@@ -423,6 +423,7 @@ section h3.section-subheading {
     color: #2c3e50;
     list-style: none;
     font-weight: 300;
+    padding-left: 0;
 }
 
 .amenities li {
@@ -924,4 +925,9 @@ body {
 
 @media (min-width: 768px) and (max-width: 1000px) {
     .navbar .container { width: 100%; }
+    .amenities-list-2 { margin-top: -10px; }
+}
+
+@media (min-width: 992px) {
+    .amenities-long-asterisk { float: left; padding-left: 5em; }
 }
