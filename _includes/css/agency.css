@@ -93,7 +93,8 @@ h5 {
 }
 
 h4 {
-    margin: 75px 0 50px 0;
+    margin: 75px 0 0 0;
+    color: #3498db;
     font-size: 30px;
 }
 
@@ -383,6 +384,7 @@ section h3.section-subheading {
 .service-heading {
     margin: 15px 0;
     text-transform: none;
+    color: #{{ site.color.primary }};
 }
 
 .villa-feature {
