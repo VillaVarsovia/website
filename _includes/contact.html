@@ -16,7 +16,7 @@
         <div class="row">
 
             {% for member in site.people %}
-            <div class="col-sm-3">
+            <div class="col-sm-3"  style="display: none;">
 
                 <div class="team-member">
                     <img src="img/team/{{ member.pic }}" class="img-responsive img-circle"  width="125" alt="">
@@ -30,7 +30,9 @@
             </div>
             {% endfor %}
 
-            <div class="col-sm-9">
+
+
+            <div class="col-sm-offset-1 col-sm-10">
                 <form name="sentMessage" id="contactForm" novalidate>
                     <div class="row">
 
