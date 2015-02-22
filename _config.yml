@@ -19,14 +19,18 @@ people:
   social:
     - title: pinterest
       url: http://www.pinterest.com/mwieladek/
+      color: cb2027
     - title: facebook
       url: https://www.facebook.com/marta.wieladek
+      color: 3b5998
+
 
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: facebook
     url: https://www.facebook.com/VillaVarsovia
+    color: 3b5998
 
 
 # Postal address (add as many lines as necessary)

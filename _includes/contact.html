@@ -17,11 +17,11 @@
             <div class="col-sm-3">
 
                 <div class="team-member">
-                    <img src="img/team/{{ member.pic }}" class="img-responsive img-circle" alt="">
+                    <img src="img/team/{{ member.pic }}" class="img-responsive img-circle"  width="125" alt="">
                     <h4>{{ member.name }}</h4>
                     <ul class="list-inline social-buttons">
                         {% for network in member.social %}
-                        <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
+                        <li><a href="{{ network.url }}" style="background: #{{network.color}};"><i class="fa fa-{{ network.title }}"></i></a>
                             {% endfor %}
                     </ul>
                 </div>
@@ -73,7 +73,7 @@
         <div class="row" style="margin-top: 100px;">
             <div class="col-sm-3 team-member team-member-family">
                 <img src="img/team/family.jpg" class="img-responsive img-circle" alt="">
-                <h4>The Family</h4>
+                <h4>The Wieladek Family</h4>
             </div>
             <div class="col-sm-9 text-center">
                 <h4 class="text-center" style="padding: 0; margin: 0;">About us</h4>
