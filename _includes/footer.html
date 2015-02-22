@@ -4,7 +4,7 @@
             <div class="text-center">
                 <ul class="list-inline social-buttons">
                     {% for network in site.social %}
-                    <li><a href="{{ network.url }}" style="background: #{{network.color}};"><i class="fa fa-{{ network.title }}"></i></a>
+                    <li><a target="_blank" href="{{ network.url }}" style="background: #{{network.color}};"><i class="fa fa-{{ network.title }}"></i></a>
                     </li>
                     {% endfor %}
                 </ul>
