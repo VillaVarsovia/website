@@ -4,6 +4,8 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+.scrolloff { pointer-events: none; }
+
 #contactForm .btn-spin { display: none; }
 #contactForm.busy .btn-spin { display: inline-block; padding: 0 10px; }
 

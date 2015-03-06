@@ -86,6 +86,13 @@
     }
 
 
+    var $map = $('#googleMaps');
+    var $mapIframe = $('#googleMaps iframe');
+
+    $mapIframe.addClass('scrolloff');
+
+    $map.on('click', function () { $mapIframe.removeClass('scrolloff'); });
+    $mapIframe.mouseleave(function () { $mapIframe.addClass('scrolloff'); });
  });
 
 </script>
